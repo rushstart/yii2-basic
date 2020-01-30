@@ -52,12 +52,6 @@ git clone git@github.com:rushstart/yii2-basic.git .
 composer create-project
 ~~~
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
-
-~~~
-http://localhost/basic/web/
-~~~
 
 ### Install from an Archive File
 
@@ -72,12 +66,6 @@ Set cookie validation key in `config/web-local.php` file to some random secret s
     'cookieValidationKey' => '<secret random string goes here>',
 ],
 ```
-
-You can then access the application through the following URL:
-
-~~~
-http://localhost/basic/web/
-~~~
 
 
 CONFIGURATION
@@ -100,4 +88,3 @@ return [
 **NOTES:**
 - Yii won't create the database for you, this has to be done manually before you can access it.
 - Check and edit the other files in the `config/` directory to customize your application as required.
-- Refer to the README in the `tests` directory for information specific to basic application tests.
