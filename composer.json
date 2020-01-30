@@ -40,13 +40,6 @@
     },
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
-            "setPermission": [
-                {
-                    "runtime": "0777",
-                    "web/assets": "0777",
-                    "yii": "0755"
-                }
-            ],
             "copyFiles": [
                 {
                     "default_settings/config/console-local.php": "config/console-local.php",
@@ -55,6 +48,13 @@
                     "default_settings/config/params-local.php": "config/params-local.php",
                     "default_settings/config/web-local.php": "config/web-local.php",
                     "default_settings/yii": "yii"
+                }
+            ],
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "web/assets": "0777",
+                    "yii": "0755"
                 }
             ]
         },
