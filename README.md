@@ -79,13 +79,13 @@ CONFIGURATION
 Edit the file `config/main-local.php` with real data, for example:
 
 ```php
-return [
+'db' => [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=yii2basic',
     'username' => 'root',
     'password' => '1234',
     'charset' => 'utf8',
-];
+],
 ```
 
 **NOTES:**
