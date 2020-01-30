@@ -46,6 +46,16 @@
                     "web/assets": "0777",
                     "yii": "0755"
                 }
+            ],
+            "copyFiles": [
+                {
+                    "default_settings/config/console-local.php": "config/console-local.php",
+                    "default_settings/web/index.php": "web/index.php",
+                    "default_settings/config/main-local.php": "config/main-local.php",
+                    "default_settings/config/params-local.php": "config/params-local.php",
+                    "default_settings/config/web-local.php": "config/web-local.php",
+                    "default_settings/yii": "yii"
+                }
             ]
         },
         "yii\\composer\\Installer::postInstall": {

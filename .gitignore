@@ -20,3 +20,11 @@ composer.phar
 
 # Mac DS_Store Files
 .DS_Store
+
+# ignore generated files
+/web/index.php
+/yii
+/config/web-local.php
+/config/params-local.php
+/config/console-local.php
+/config/main-local.php

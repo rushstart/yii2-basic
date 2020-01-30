@@ -57,6 +57,8 @@ composer create-project --prefer-dist rushstart/yii2-basic basic
 Extract the archive file downloaded from (https://github.com/rushstart/yii2-basic/archive/master.zip) to
 a directory named `basic` that is directly under the Web root.
 
+Copy files from the default_settings directory to the base directory
+
 Set cookie validation key in `config/web-local.php` file to some random secret string:
 
 ```php
