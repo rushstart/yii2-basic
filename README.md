@@ -50,6 +50,9 @@ You can then install this project template using the following command:
 cd basic
 git clone git@github.com:rushstart/yii2-basic.git .
 composer create-project
+// Remove the .git directory
+on windows: rd /S /Q .git
+bash: rm -rf .git
 ~~~
 
 
