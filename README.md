@@ -48,12 +48,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ~~~
-cd basic
-git clone git@github.com:rushstart/yii2-basic.git .
-composer create-project
-// Remove the .git directory
-on windows: rd /S /Q .git
-bash: rm -rf .git
+composer create-project --prefer-dist rushstart/yii2-basic basic
 ~~~
 
 
