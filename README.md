@@ -57,7 +57,7 @@ composer create-project --prefer-dist rushstart/yii2-basic basic
 Extract the archive file downloaded from (https://github.com/rushstart/yii2-basic/archive/master.zip) to
 a directory named `basic` that is directly under the Web root.
 
-Copy files from the `default_settings` directory to the base directory
+Copy files from the `install` directory to the base directory
 
 Set cookie validation key in `config/web-local.php` file to some random secret string:
 
@@ -68,7 +68,7 @@ Set cookie validation key in `config/web-local.php` file to some random secret s
 ],
 ```
 **NOTES:**
-- After install you can remove the `default_settings` directory
+- After install you can remove the `install` directory
 
 
 CONFIGURATION
@@ -87,6 +87,11 @@ Edit the file `config/main-local.php` with real data, for example:
     'charset' => 'utf8',
 ],
 ```
+
+And run migration
+~~~
+yii migrate/up
+~~~
 
 **NOTES:**
 - Yii won't create the database for you, this has to be done manually before you can access it.

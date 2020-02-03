@@ -16,7 +16,8 @@
         "php": ">=7.1.0",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "dmstr/yii2-adminlte-asset": "~2.6.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
@@ -42,12 +43,12 @@
         "yii\\composer\\Installer::postCreateProject": {
             "copyFiles": [
                 {
-                    "default_settings/config/console-local.php": "config/console-local.php",
-                    "default_settings/web/index.php": "web/index.php",
-                    "default_settings/config/main-local.php": "config/main-local.php",
-                    "default_settings/config/params-local.php": "config/params-local.php",
-                    "default_settings/config/web-local.php": "config/web-local.php",
-                    "default_settings/yii": "yii"
+                    "install/config/console-local.php": "config/console-local.php",
+                    "install/web/index.php": "web/index.php",
+                    "install/config/main-local.php": "config/main-local.php",
+                    "install/config/params-local.php": "config/params-local.php",
+                    "install/config/web-local.php": "config/web-local.php",
+                    "install/yii": "yii"
                 }
             ],
             "setPermission": [

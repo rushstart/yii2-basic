@@ -27,14 +27,14 @@ return [
             ],
         ],
         'user' => [
-            'class'=> 'yii\web\User',
+            'class' => 'yii\web\User',
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity', 'httpOnly' => true],
         ],
     ],
     'modules' => [
-
+        'admin' => 'app\modules\admin\Module'
     ],
     'params' => $params,
 ];
