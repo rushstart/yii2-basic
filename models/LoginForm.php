@@ -21,7 +21,7 @@ class LoginForm extends Model
 
 
     /**
-     * @return array the validation rules.
+     * {@inheritdoc}
      */
     public function rules()
     {
@@ -51,9 +51,21 @@ class LoginForm extends Model
             $user = $this->getUser();
 
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect email or password.');
+                $this->addError($attribute, 'Неверный Email или Пароль.');
             }
         }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function attributeLabels()
+    {
+        return [
+            'email' => 'Email',
+            'password' => 'Пароль',
+            'rememberMe' => 'Запомнить меня',
+        ];
     }
 
     /**
@@ -63,7 +75,7 @@ class LoginForm extends Model
     public function login()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600*24*30 : 0);
+            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
         }
         return false;
     }

@@ -2,6 +2,8 @@
 use yii\widgets\Breadcrumbs;
 use dmstr\widgets\Alert;
 
+/* @var $this \yii\web\View */
+/* @var $content string */
 ?>
 <div class="content-wrapper">
     <section class="content-header">
@@ -90,7 +92,7 @@ use dmstr\widgets\Alert;
                     </a>
                 </li>
                 <li>
-                    <a href='javascript::;'>
+                    <a href="javascript::">
                         <i class="menu-icon fa fa-file-code-o bg-green"></i>
 
                         <div class="menu-info">
@@ -106,7 +108,7 @@ use dmstr\widgets\Alert;
             <h3 class="control-sidebar-heading">Tasks Progress</h3>
             <ul class='control-sidebar-menu'>
                 <li>
-                    <a href='javascript::;'>
+                    <a href="javascript::">
                         <h4 class="control-sidebar-subheading">
                             Custom Template Design
                             <span class="label label-danger pull-right">70%</span>
@@ -118,7 +120,7 @@ use dmstr\widgets\Alert;
                     </a>
                 </li>
                 <li>
-                    <a href='javascript::;'>
+                    <a href="javascript::">
                         <h4 class="control-sidebar-subheading">
                             Update Resume
                             <span class="label label-success pull-right">95%</span>
@@ -130,7 +132,7 @@ use dmstr\widgets\Alert;
                     </a>
                 </li>
                 <li>
-                    <a href='javascript::;'>
+                    <a href="javascript::">
                         <h4 class="control-sidebar-subheading">
                             Laravel Integration
                             <span class="label label-waring pull-right">50%</span>
@@ -142,7 +144,7 @@ use dmstr\widgets\Alert;
                     </a>
                 </li>
                 <li>
-                    <a href='javascript::;'>
+                    <a href="javascript::">
                         <h4 class="control-sidebar-subheading">
                             Back End Framework
                             <span class="label label-primary pull-right">68%</span>
@@ -221,7 +223,7 @@ use dmstr\widgets\Alert;
                 <div class="form-group">
                     <label class="control-sidebar-subheading">
                         Delete chat history
-                        <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+                        <a href="javascript::" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
                     </label>
                 </div>
                 <!-- /.form-group -->
