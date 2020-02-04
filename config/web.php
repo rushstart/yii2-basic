@@ -31,9 +31,7 @@ return [
                     ]
                 ],
                 'yii\web\YiiAsset' => [
-                    'js' => [
-                        YII_ENV_DEV ? 'yii.js' : '/js/yii.js',
-                    ]
+                    'sourcePath' => YII_ENV_DEV ? '@yii/assets' : '@webroot/js',
                 ],
             ],
         ],
