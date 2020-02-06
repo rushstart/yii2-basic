@@ -4,7 +4,7 @@
 namespace app\modules\node\models;
 
 
-use app\modules\node\RelationServantBehavior;
+use app\modules\node\behaviors\RelationServantBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;

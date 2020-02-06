@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\modules\node;
+namespace app\modules\node\behaviors;
 
 
 use Yii;
