@@ -1,9 +1,10 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\forms;
 
 
+use app\models\User;
 use yii\base\Exception;
 use yii\base\Model;
 

@@ -1,7 +1,9 @@
 <?php
 namespace app\modules\admin\assets;
 
-class AdminAsset extends \yii\web\AssetBundle
+use yii\web\AssetBundle;
+
+class AdminAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';

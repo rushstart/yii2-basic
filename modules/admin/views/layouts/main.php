@@ -27,18 +27,18 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
 <div class="wrapper">
 
     <?= $this->render(
-        'header.php',
+        '_header.php',
         ['directoryAsset' => $directoryAsset]
     ) ?>
 
     <?= $this->render(
-        'left.php',
+        '_left.php',
         ['directoryAsset' => $directoryAsset]
     )
     ?>
 
     <?= $this->render(
-        'content.php',
+        '_content.php',
         ['content' => $content, 'directoryAsset' => $directoryAsset]
     ) ?>
 

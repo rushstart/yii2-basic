@@ -4,7 +4,7 @@
 namespace app\commands;
 
 
-use app\models\SignupForm;
+use app\models\forms\SignupForm;
 use app\models\User;
 use yii\base\Exception;
 use yii\console\Controller;

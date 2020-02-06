@@ -4,14 +4,14 @@
 namespace app\modules\admin\controllers;
 
 
-use app\models\LoginForm;
+use app\models\forms\LoginForm;
 use Yii;
 use yii\web\Controller;
 use yii\web\Response;
 
 class UserController extends Controller
 {
-    public $layout = 'main-login';
+
     /**
      * Login action.
      *
@@ -22,6 +22,8 @@ class UserController extends Controller
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
+
+        $this->layout = 'login';
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
