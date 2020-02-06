@@ -9,15 +9,14 @@
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/rushstart/yii2-basic.svg)](https://packagist.org/packages/rushstart/yii2-app-basic)
+[![Total Downloads](https://img.shields.io/packagist/dt/rushstart/yii2-basic.svg)](https://packagist.org/packages/rushstart/yii2-basic)
 
 DIRECTORY STRUCTURE
 -------------------
 
-      assets/             contains assets definition
+      admin/              contains admin module
       commands/           contains console commands (controllers)
       config/             contains application configurations
       controllers/        contains Web controller classes
