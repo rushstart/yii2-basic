@@ -1,6 +1,6 @@
 <?php
 
-use app\modules\admin\assets\AdminAsset;
+use app\admin\assets\AdminAsset;
 use yii\helpers\Html;
 use yii\web\View;
 
