@@ -5,7 +5,7 @@
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/rushstart/yii2-basic/issues?state=open",
+        "issues": "https://github.com/rushstart/yii2-basic/issues?state=open"
     },
     "minimum-stability": "stable",
     "require": {
