@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\modules\admin\controllers;
+namespace app\admin\controllers;
 
 
-use app\models\forms\LoginForm;
+use app\modules\user\models\forms\LoginForm;
 use Yii;
 use yii\web\Controller;
 use yii\web\Response;

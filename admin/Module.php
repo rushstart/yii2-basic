@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\modules\admin;
+namespace app\admin;
 
 
-use app\modules\admin\controllers\UserController;
+use app\admin\controllers\UserController;
 use Yii;
 use yii\web\NotFoundHttpException;
 

@@ -28,13 +28,13 @@ return [
         ],
         'user' => [
             'class' => 'yii\web\User',
-            'identityClass' => 'app\models\User',
+            'identityClass' => 'app\modules\user\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity', 'httpOnly' => true],
         ],
     ],
     'modules' => [
-        'admin' => 'app\modules\admin\Module'
+        'admin' => 'app\admin\Module'
     ],
     'params' => $params,
 ];

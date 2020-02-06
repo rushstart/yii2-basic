@@ -4,8 +4,8 @@
 namespace app\commands;
 
 
-use app\models\forms\SignupForm;
-use app\models\User;
+use app\modules\user\models\forms\SignupForm;
+use app\modules\user\models\User;
 use yii\base\Exception;
 use yii\console\Controller;
 use yii\console\ExitCode;
